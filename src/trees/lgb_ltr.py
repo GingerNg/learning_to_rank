@@ -6,8 +6,8 @@ import numpy as np
 from datetime import datetime
 import sys
 from sklearn.preprocessing import OneHotEncoder
-from data_format_read import read_dataset
-from ndcg import validate
+from .data_format_read import read_dataset
+from .ndcg import validate
 import shap
 import matplotlib.pyplot as plt
 import graphviz
